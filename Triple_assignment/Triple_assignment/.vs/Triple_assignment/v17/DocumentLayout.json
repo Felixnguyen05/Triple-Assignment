@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\azure\\main.bicep||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\azure\\main.bicep||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\deploy.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\deploy.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,16 +66,8 @@
       "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\triple_assignment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\src\\functions\\httpgetimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\src\\functions\\httpgetimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\deploy.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\deploy.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\__azurite_db_blob__.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -74,10 +86,6 @@
       "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\triple_assignment.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\triple_assignment.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -93,7 +101,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,30 +110,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ImageJobProcessor.cs",
-              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\ImageJobProcessor.cs",
-              "RelativeDocumentMoniker": "Triple_assignment\\src\\Functions\\ImageJobProcessor.cs",
-              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\ImageJobProcessor.cs",
-              "RelativeToolTip": "Triple_assignment\\src\\Functions\\ImageJobProcessor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:13:27.431Z"
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\.gitignore",
+              "RelativeDocumentMoniker": "Triple_assignment\\.gitignore",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\.gitignore",
+              "RelativeToolTip": "Triple_assignment\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-06T20:20:51.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ImageService.cs",
-              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Services\\ImageService.cs",
-              "RelativeDocumentMoniker": "Triple_assignment\\src\\Services\\ImageService.cs",
-              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Services\\ImageService.cs",
-              "RelativeToolTip": "Triple_assignment\\src\\Services\\ImageService.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowD8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:13:24.898Z"
+              "DocumentIndex": 0,
+              "Title": "main.bicep",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Azure\\main.bicep",
+              "RelativeDocumentMoniker": "Triple_assignment\\Azure\\main.bicep",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Azure\\main.bicep",
+              "RelativeToolTip": "Triple_assignment\\Azure\\main.bicep",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-06T20:15:36.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "StartJobQueueProcessor.cs",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\StartJobQueueProcessor.cs",
               "RelativeDocumentMoniker": "Triple_assignment\\src\\Functions\\StartJobQueueProcessor.cs",
@@ -137,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "StorageService.cs",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Services\\StorageService.cs",
               "RelativeDocumentMoniker": "Triple_assignment\\src\\Services\\StorageService.cs",
@@ -149,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "local.settings.json",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\local.settings.json",
               "RelativeDocumentMoniker": "Triple_assignment\\local.settings.json",
@@ -161,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "HttpGetImages.cs",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\HttpGetImages.cs",
               "RelativeDocumentMoniker": "Triple_assignment\\src\\Functions\\HttpGetImages.cs",
@@ -173,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "WeatherService.cs",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Services\\WeatherService.cs",
               "RelativeDocumentMoniker": "Triple_assignment\\src\\Services\\WeatherService.cs",
@@ -185,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Program.cs",
               "RelativeDocumentMoniker": "Triple_assignment\\src\\Program.cs",
@@ -193,12 +202,11 @@
               "RelativeToolTip": "Triple_assignment\\src\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:22:40.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T14:22:40.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "HttpGetStatus.cs",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\HttpGetStatus.cs",
               "RelativeDocumentMoniker": "Triple_assignment\\src\\Functions\\HttpGetStatus.cs",
@@ -210,103 +218,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HttpStartFunction.cs",
-              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
-              "RelativeDocumentMoniker": "Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
-              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
-              "RelativeToolTip": "Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T14:13:25.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "azurite_debug.log",
-              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\azurite_debug.log",
-              "RelativeDocumentMoniker": "Triple_assignment\\azurite_debug.log",
-              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\azurite_debug.log",
-              "RelativeToolTip": "Triple_assignment\\azurite_debug.log",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-06T14:56:29.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Triple_assignment.csproj",
-              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Triple_assignment.csproj",
-              "RelativeDocumentMoniker": "Triple_assignment\\Triple_assignment.csproj",
-              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Triple_assignment.csproj",
-              "RelativeToolTip": "Triple_assignment\\Triple_assignment.csproj",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-06T12:59:55.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "deploy.ps1",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\deploy.ps1",
               "RelativeDocumentMoniker": "Triple_assignment\\deploy.ps1",
               "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\deploy.ps1",
               "RelativeToolTip": "Triple_assignment\\deploy.ps1",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-05T14:39:35.759Z"
+              "WhenOpened": "2025-11-05T14:39:35.759Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "__azurite_db_blob__.json",
-              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\__azurite_db_blob__.json",
-              "RelativeDocumentMoniker": "Triple_assignment\\__azurite_db_blob__.json",
-              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\__azurite_db_blob__.json",
-              "RelativeToolTip": "Triple_assignment\\__azurite_db_blob__.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-05T20:25:01.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "__azurite_db_blob_extent__.json",
-              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\__azurite_db_blob_extent__.json",
-              "RelativeDocumentMoniker": "Triple_assignment\\__azurite_db_blob_extent__.json",
-              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\__azurite_db_blob_extent__.json",
-              "RelativeToolTip": "Triple_assignment\\__azurite_db_blob_extent__.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-05T20:25:06.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "api.http",
-              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\api.http",
-              "RelativeDocumentMoniker": "Triple_assignment\\api.http",
-              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\api.http",
-              "RelativeToolTip": "Triple_assignment\\api.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-11-05T14:33:38.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "api.http",
-              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\api.http",
-              "RelativeDocumentMoniker": "Triple_assignment\\api.http",
-              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\api.http",
-              "RelativeToolTip": "Triple_assignment\\api.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-11-05T20:25:07.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 2,
               "Title": "host.json",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\host.json",
               "RelativeDocumentMoniker": "Triple_assignment\\host.json",
@@ -318,7 +243,115 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "Triple_assignment\\src\\Services\\ImageService.cs",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Services\\ImageService.cs",
+              "RelativeToolTip": "Triple_assignment\\src\\Services\\ImageService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowD8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T14:13:24.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ImageJobProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\ImageJobProcessor.cs",
+              "RelativeDocumentMoniker": "Triple_assignment\\src\\Functions\\ImageJobProcessor.cs",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\ImageJobProcessor.cs",
+              "RelativeToolTip": "Triple_assignment\\src\\Functions\\ImageJobProcessor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T14:13:27.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HttpStartFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
+              "RelativeDocumentMoniker": "Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
+              "RelativeToolTip": "Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T14:13:25.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "azurite_debug.log",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\azurite_debug.log",
+              "RelativeDocumentMoniker": "Triple_assignment\\azurite_debug.log",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\azurite_debug.log",
+              "RelativeToolTip": "Triple_assignment\\azurite_debug.log",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-06T14:56:29.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Triple_assignment.csproj",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Triple_assignment.csproj",
+              "RelativeDocumentMoniker": "Triple_assignment\\Triple_assignment.csproj",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Triple_assignment.csproj",
+              "RelativeToolTip": "Triple_assignment\\Triple_assignment.csproj",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-06T12:59:55.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "__azurite_db_blob__.json",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\__azurite_db_blob__.json",
+              "RelativeDocumentMoniker": "Triple_assignment\\__azurite_db_blob__.json",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\__azurite_db_blob__.json",
+              "RelativeToolTip": "Triple_assignment\\__azurite_db_blob__.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T20:25:01.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "__azurite_db_blob_extent__.json",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\__azurite_db_blob_extent__.json",
+              "RelativeDocumentMoniker": "Triple_assignment\\__azurite_db_blob_extent__.json",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\__azurite_db_blob_extent__.json",
+              "RelativeToolTip": "Triple_assignment\\__azurite_db_blob_extent__.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T20:25:06.586Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "api.http",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\api.http",
+              "RelativeDocumentMoniker": "Triple_assignment\\api.http",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\api.http",
+              "RelativeToolTip": "Triple_assignment\\api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-05T14:33:38.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "api.http",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\api.http",
+              "RelativeDocumentMoniker": "Triple_assignment\\api.http",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\api.http",
+              "RelativeToolTip": "Triple_assignment\\api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-05T20:25:07.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Triple_assignment",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Triple_assignment.csproj",
               "RelativeDocumentMoniker": "Triple_assignment\\Triple_assignment.csproj",
@@ -329,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Microsoft.Azure.Functions.Worker.Sdk.targets",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\.nuget\\packages\\microsoft.azure.functions.worker.sdk\\1.9.0\\build\\Microsoft.Azure.Functions.Worker.Sdk.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.azure.functions.worker.sdk\\1.9.0\\build\\Microsoft.Azure.Functions.Worker.Sdk.targets",
@@ -341,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ImageHelper.cs",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Utilities\\ImageHelper.cs",
               "RelativeDocumentMoniker": "Triple_assignment\\src\\Utilities\\ImageHelper.cs",
