@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AzureFunctionsVersion>v4</AzureFunctionsVersion>
+		<OutputType>Exe</OutputType>
+		<!-- THIS IS REQUIRED -->
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<FunctionsWorkerRuntime>dotnet-isolated</FunctionsWorkerRuntime>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<!-- Azure Functions SDK -->
+		<PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.5" OutputItemType="Analyzer" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.Azure.Functions.Worker" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.0.13" />
+		<PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Storage.Queues" Version="5.0.0" />
+
+		<!-- Azure Storage -->
+		<PackageReference Include="Azure.Storage.Blobs" Version="12.16.0" />
+		<PackageReference Include="Azure.Storage.Queues" Version="12.14.0" />
+
+		<!-- JSON handling -->
+		<PackageReference Include="System.Text.Json" Version="9.0.10" />
+
+		<!-- ImageSharp & Fonts for image processing -->
+		<PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
+		<PackageReference Include="SixLabors.ImageSharp.Drawing" Version="2.1.3" />
+		<PackageReference Include="SixLabors.Fonts" Version="2.1.3" />
+
+		<!-- Logging / Configuration -->
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="9.0.10" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.10" />
+
+		<!-- Optional: HTTP client factory -->
+		<PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <Folder Include="Azure\" />
+	</ItemGroup>
+
+</Project>

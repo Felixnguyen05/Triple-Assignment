@@ -1,0 +1,8 @@
+﻿### Start new image job
+POST http://localhost:7071/api/start
+Content-Type: application/json
+
+###
+
+### Fetch generated images for a process
+GET http://localhost:7071/api/images/{{processId}}

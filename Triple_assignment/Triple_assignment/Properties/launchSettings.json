@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Triple_assignment": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7127",
+      "launchBrowser": false
+    }
+  }
+}
