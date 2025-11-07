@@ -1,0 +1,64 @@
+name: Build and Deploy to Azure Storage
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: windows-latest
+
+    env:
+      RESOURCE_GROUP: "Hieu"               # Resource group name
+      LOCATION: "westeurope"               # Azure region
+      STORAGE_ACCOUNT_NAME: "tripleassignmentsa"  # Storage account name
+      FUNCTION_APP_NAME: "tripleassignment-func" # Not used, kept for reference
+
+    steps:
+      # Checkout repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Setup .NET
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+
+      # Restore NuGet packages
+      - name: Restore dependencies
+        run: dotnet restore ./Triple_assignment.sln
+
+      # Build and publish
+      - name: Build project
+        run: dotnet publish ./Triple_assignment.sln -c Release -o ./publish
+
+      # Setup Azure CLI
+      - name: Setup Azure CLI
+        uses: azure/setup-azure@v3
+        with:
+          enable-Az: true
+
+      # Login to Azure
+      - name: Azure login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      # Deploy Bicep (Storage + Queues)
+      - name: Deploy Azure Storage and Queues
+        run: pwsh ./deploy.ps1 `
+              -resourceGroup $env:RESOURCE_GROUP `
+              -location $env:LOCATION `
+              -storageAccountName $env:STORAGE_ACCOUNT_NAME
+
+      # Upload compiled files to Blob Storage
+      - name: Upload to Blob Storage
+        run: |
+          $containerUrl = $env:AZURE_STORAGE_SAS_URL
+          az storage blob upload-batch `
+            --source ./publish `
+            --destination $containerUrl `
+            --pattern "*.*" `
+            --no-progress
