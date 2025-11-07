@@ -109,3 +109,11 @@ This script:
 - Azure CLI
 - Azure Storage Account
 - Azure Function App
+
+## Result in Could requirements
+![alt text](image-1.png)
+![alt text](image.png)
+- You can see in the activities, the item uses SAS token and successfully declare in the result
+
+## Credentials
+- Please check in the local.setting.json

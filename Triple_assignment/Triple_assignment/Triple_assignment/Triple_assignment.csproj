@@ -13,6 +13,7 @@
 
 	<ItemGroup>
 		<!-- Azure Functions SDK -->
+		<PackageReference Include="Azure.Data.Tables" Version="12.11.0" />
 		<PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.5" OutputItemType="Analyzer" PrivateAssets="all" />
 		<PackageReference Include="Microsoft.Azure.Functions.Worker" Version="2.2.0" />
 		<PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.0.13" />
