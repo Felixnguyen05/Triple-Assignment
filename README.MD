@@ -93,7 +93,7 @@ $images = Invoke-RestMethod -Uri "http://localhost:7071/api/images/$processId" -
 ## Deployment
 1. Deploy infrastructure and function app via PowerShell:
 ```C
-.\deploy.ps1
+powershell.exe -ExecutionPolicy Bypass -File .\deploy.ps1 -resourceGroup Hieu -location swedencentral -prefix triple
 ```
 
 This script:
@@ -102,6 +102,41 @@ This script:
 - Deploys resources using main.bicep.
 - Builds and publishes the Function App.
 
+## Set the missing env var  code expects
+```C
+az functionapp config appsettings set -g Hieu -n triple-func-obpnd3sto4eio --settings "AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=triplesaobpnd3st;AccountKey=6fTthgVuqKUIJleuIDjtKkK3YHhoCBRfDItYiluKdw4oBhGnGfKzxItXBhF0+Gkaw9ya/Z6o0xKp+AStsS+NsQ==;EndpointSuffix=core.windows.net"
+```
+
+## Restart the Function App
+```C
+az functionapp restart -g Hieu -n triple-func-obpnd3sto4eio
+```
+
+## Test /start
+```C
+curl -i -X POST "https://triple-func-obpnd3sto4eio.azurewebsites.net/api/start" -u admin_hieu:neko-chann -H "x-functions-key: vovH4kaO4Z3VnuD_w3Jfx64g2yrydBrvZX2O23DqJRgqAzFuXwZMEg=="
+```
+
+## Run this command on PowerShell to get the ProcessID
+```C
+$response = Invoke-RestMethod `
+  -Uri "https://triple-func-obpnd3sto4eio.azurewebsites.net/api/start" `
+  -Method POST `
+  -Headers @{
+      "x-functions-key"="vovH4kaO4Z3VnuD_w3Jfx64g2yrydBrvZX2O23DqJRgqAzFuXwZMEg=="
+  } `
+  -Credential (New-Object System.Management.Automation.PSCredential(
+      "admin_hieu",
+      (ConvertTo-SecureString "neko-chann" -AsPlainText -Force)
+  ))
+
+$response.processId
+```
+
+## After get the ProcessID, run this command 
+```C
+curl -i "https://triple-func-obpnd3sto4eio.azurewebsites.net/api/status/74efb2e2-ee41-4c8a-a4ca-46c8a9a7cdf3" -u admin_hieu:neko-chann -H "x-functions-key: vovH4kaO4Z3VnuD_w3Jfx64g2yrydBrvZX2O23DqJRgqAzFuXwZMEg=="
+```
 
 ## Environment & Dependencies
 - .NET SDK 8.0
