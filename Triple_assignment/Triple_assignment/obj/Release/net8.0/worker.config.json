@@ -1,0 +1,10 @@
+{
+  "description": {
+    "language": "dotnet-isolated",
+    "extensions": [ ".dll" ],
+    "defaultExecutablePath": "dotnet",
+    "defaultWorkerPath": "Triple_assignment.dll",
+    "workerIndexing": "true",
+    "canUsePlaceholder": true
+  }
+}

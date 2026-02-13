@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\",
   "Documents": [
     {
+<<<<<<< HEAD:Triple_assignment/Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
+=======
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\test-azure.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\test-azure.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\src\\functions\\httpstartfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\src\\functions\\httpstartfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> bd0e7ac (Update the fix in the requirements from teacher):Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
       "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\deploy.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\deploy.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -11,6 +22,7 @@
       "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\azure\\main.bicep||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
+<<<<<<< HEAD:Triple_assignment/Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
       "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -92,6 +104,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\triple_assignment.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\triple_assignment.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+=======
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\azure\\main.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\azure\\main.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|c:\\users\\nguyen hieu\\documents\\minors\\triple\\triple_assignment\\triple_assignment\\triple_assignment\\src\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A744FDB-739F-497A-B7D3-E27146076D20}|Triple_assignment\\Triple_assignment.csproj|solutionrelative:triple_assignment\\src\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> bd0e7ac (Update the fix in the requirements from teacher):Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
     }
   ],
   "DocumentGroupContainers": [
@@ -101,14 +129,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD:Triple_assignment/Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
           "SelectedChildIndex": 5,
+=======
+          "SelectedChildIndex": 0,
+>>>>>>> bd0e7ac (Update the fix in the requirements from teacher):Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test-azure.ps1",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\test-azure.ps1",
+              "RelativeDocumentMoniker": "Triple_assignment\\test-azure.ps1",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\test-azure.ps1",
+              "RelativeToolTip": "Triple_assignment\\test-azure.ps1",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-13T16:23:01.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HttpStartFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
+              "RelativeDocumentMoniker": "Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
+              "RelativeToolTip": "Triple_assignment\\src\\Functions\\HttpStartFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T15:53:06.118Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD:Triple_assignment/Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
               "DocumentIndex": 1,
               "Title": "main.bicep",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Azure\\main.bicep",
@@ -116,18 +175,45 @@
               "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Azure\\main.bicep",
               "RelativeToolTip": "Triple_assignment\\Azure\\main.bicep",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-06T20:15:36.169Z",
+=======
+              "DocumentIndex": 4,
+              "Title": "main.json",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Azure\\main.json",
+              "RelativeDocumentMoniker": "Triple_assignment\\Azure\\main.json",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Azure\\main.json",
+              "RelativeToolTip": "Triple_assignment\\Azure\\main.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-13T14:37:35.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "deploy.ps1",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\deploy.ps1",
+              "RelativeDocumentMoniker": "Triple_assignment\\deploy.ps1",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\deploy.ps1",
+              "RelativeToolTip": "Triple_assignment\\deploy.ps1",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAwJkAAAAAAAAAAAAAAA==",
+>>>>>>> bd0e7ac (Update the fix in the requirements from teacher):Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-13T13:30:09.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD:Triple_assignment/Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 7,
+>>>>>>> bd0e7ac (Update the fix in the requirements from teacher):Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
               "Title": "StorageService.cs",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Services\\StorageService.cs",
               "RelativeDocumentMoniker": "Triple_assignment\\src\\Services\\StorageService.cs",
               "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Services\\StorageService.cs",
               "RelativeToolTip": "Triple_assignment\\src\\Services\\StorageService.cs",
+<<<<<<< HEAD:Triple_assignment/Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
               "ViewState": "AgIAAAkAAAAAAAAAAAAAwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T14:19:44.2Z",
@@ -145,10 +231,16 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-05T14:27:54.704Z",
               "EditorCaption": ""
+=======
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T18:47:34.092Z"
+>>>>>>> bd0e7ac (Update the fix in the requirements from teacher):Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< HEAD:Triple_assignment/Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
               "Title": "HttpGetStatus.cs",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Functions\\HttpGetStatus.cs",
               "RelativeDocumentMoniker": "Triple_assignment\\src\\Functions\\HttpGetStatus.cs",
@@ -157,10 +249,33 @@
               "ViewState": "AgIAABYAAAAAAAAAAAAqwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T20:53:44.734Z",
+=======
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Program.cs",
+              "RelativeDocumentMoniker": "Triple_assignment\\src\\Program.cs",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\src\\Program.cs",
+              "RelativeToolTip": "Triple_assignment\\src\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T18:43:52.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\local.settings.json",
+              "RelativeDocumentMoniker": "Triple_assignment\\local.settings.json",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\local.settings.json",
+              "RelativeToolTip": "Triple_assignment\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-26T18:40:00.619Z",
+>>>>>>> bd0e7ac (Update the fix in the requirements from teacher):Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD:Triple_assignment/Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
               "DocumentIndex": 0,
               "Title": "deploy.ps1",
               "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\deploy.ps1",
@@ -168,9 +283,19 @@
               "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\deploy.ps1",
               "RelativeToolTip": "Triple_assignment\\deploy.ps1",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+=======
+              "DocumentIndex": 3,
+              "Title": "main.bicep",
+              "DocumentMoniker": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Azure\\main.bicep",
+              "RelativeDocumentMoniker": "Triple_assignment\\Azure\\main.bicep",
+              "ToolTip": "C:\\Users\\Nguyen Hieu\\Documents\\Minors\\Triple\\Triple_assignment\\Triple_assignment\\Triple_assignment\\Azure\\main.bicep",
+              "RelativeToolTip": "Triple_assignment\\Azure\\main.bicep",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAwJsAAAAAAAAAAAAAAA==",
+>>>>>>> bd0e7ac (Update the fix in the requirements from teacher):Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-05T14:39:35.759Z",
+              "WhenOpened": "2025-11-06T20:15:36.169Z",
               "EditorCaption": ""
+<<<<<<< HEAD:Triple_assignment/Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
             },
             {
               "$type": "Document",
@@ -388,6 +513,8 @@
               "ViewState": "AgIAACMAAAAAAAAAAAAhwDsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-11-05T14:05:20.684Z"
+=======
+>>>>>>> bd0e7ac (Update the fix in the requirements from teacher):Triple_assignment/.vs/Triple_assignment/v17/DocumentLayout.json
             }
           ]
         }

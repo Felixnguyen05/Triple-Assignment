@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\.github\\workflows"
   ],
   "SelectedNode": "\\.github",
+=======
+    "\\.github\\workflows",
+    "\\Triple_assignment"
+  ],
+  "SelectedNode": "\\Triple_assignment\\Triple_assignment.sln",
+>>>>>>> bd0e7ac (Update the fix in the requirements from teacher)
   "PreviewInSolutionExplorer": false
 }

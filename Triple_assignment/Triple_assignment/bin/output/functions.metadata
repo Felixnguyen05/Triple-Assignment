@@ -1,0 +1,121 @@
+[
+  {
+    "name": "StartImages",
+    "scriptFile": "Triple_assignment.dll",
+    "entryPoint": "HttpStartFunction.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "req",
+        "direction": "In",
+        "type": "httpTrigger",
+        "authLevel": "Anonymous",
+        "methods": [
+          "post"
+        ],
+        "route": "start",
+        "properties": {}
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  },
+  {
+    "name": "ProcessImageJob",
+    "scriptFile": "Triple_assignment.dll",
+    "entryPoint": "ImageJobProcessor.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "queueMessage",
+        "direction": "In",
+        "type": "queueTrigger",
+        "dataType": "String",
+        "queueName": "%IMAGE_QUEUE%",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "name": "ProcessStartJob",
+    "scriptFile": "Triple_assignment.dll",
+    "entryPoint": "StartJobQueueProcessor.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "queueMessage",
+        "direction": "In",
+        "type": "queueTrigger",
+        "dataType": "String",
+        "queueName": "%START_QUEUE%",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "name": "HttpGetImages",
+    "scriptFile": "Triple_assignment.dll",
+    "entryPoint": "AzureWeatherImages.Functions.HttpGetImages.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "req",
+        "direction": "In",
+        "type": "httpTrigger",
+        "authLevel": "Anonymous",
+        "methods": [
+          "get"
+        ],
+        "route": "images/{jobId}",
+        "properties": {}
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  },
+  {
+    "name": "HttpGetStatus",
+    "scriptFile": "Triple_assignment.dll",
+    "entryPoint": "AzureWeatherImages.Functions.HttpGetStatus.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "req",
+        "direction": "In",
+        "type": "httpTrigger",
+        "authLevel": "Anonymous",
+        "methods": [
+          "get"
+        ],
+        "route": "status/{jobId}",
+        "properties": {}
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  }
+]
