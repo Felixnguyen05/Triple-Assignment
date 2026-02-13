@@ -1,0 +1,285 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.40.2.10011",
+      "templateHash": "408146634367976561"
+    }
+  },
+  "parameters": {
+    "location": {
+      "type": "string",
+      "metadata": {
+        "description": "Location for all resources"
+      }
+    },
+    "prefix": {
+      "type": "string",
+      "defaultValue": "triple",
+      "metadata": {
+        "description": "Prefix for generated resource names (keep short)"
+      }
+    },
+    "imagesContainerName": {
+      "type": "string",
+      "defaultValue": "images",
+      "metadata": {
+        "description": "Blob container name for generated images"
+      }
+    },
+    "imageQueueName": {
+      "type": "string",
+      "defaultValue": "image-job-queue",
+      "metadata": {
+        "description": "Queue names"
+      }
+    },
+    "startQueueName": {
+      "type": "string",
+      "defaultValue": "start-job-queue"
+    },
+    "jobStatusTableName": {
+      "type": "string",
+      "defaultValue": "jobstatus",
+      "metadata": {
+        "description": "Table name for job status tracking"
+      }
+    },
+    "apiUsername": {
+      "type": "string",
+      "defaultValue": "admin_hieu",
+      "metadata": {
+        "description": "API username for Basic Auth"
+      }
+    },
+    "apiPassword": {
+      "type": "securestring",
+      "metadata": {
+        "description": "API password for Basic Auth"
+      }
+    }
+  },
+  "variables": {
+    "suffixFull": "[toLower(uniqueString(resourceGroup().id))]",
+    "suffix": "[substring(variables('suffixFull'), 0, 8)]",
+    "storageAccountName": "[toLower(format('{0}sa{1}', parameters('prefix'), variables('suffix')))]",
+    "functionAppName": "[toLower(format('{0}-func-{1}', parameters('prefix'), variables('suffixFull')))]"
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2023-01-01",
+      "name": "[variables('storageAccountName')]",
+      "location": "[parameters('location')]",
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "kind": "StorageV2",
+      "properties": {
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "supportsHttpsTrafficOnly": true
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default', variables('storageAccountName'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default/{1}', variables('storageAccountName'), parameters('imagesContainerName'))]",
+      "properties": {
+        "publicAccess": "None"
+      },
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts/blobServices', split(format('{0}/default', variables('storageAccountName')), '/')[0], split(format('{0}/default', variables('storageAccountName')), '/')[1])]",
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/queueServices",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default', variables('storageAccountName'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/queueServices/queues",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default/{1}', variables('storageAccountName'), parameters('imageQueueName'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts/queueServices', split(format('{0}/default', variables('storageAccountName')), '/')[0], split(format('{0}/default', variables('storageAccountName')), '/')[1])]",
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/queueServices/queues",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default/{1}', variables('storageAccountName'), parameters('startQueueName'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts/queueServices', split(format('{0}/default', variables('storageAccountName')), '/')[0], split(format('{0}/default', variables('storageAccountName')), '/')[1])]",
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/tableServices",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default', variables('storageAccountName'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/tableServices/tables",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default/{1}', variables('storageAccountName'), parameters('jobStatusTableName'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]",
+        "[resourceId('Microsoft.Storage/storageAccounts/tableServices', split(format('{0}/default', variables('storageAccountName')), '/')[0], split(format('{0}/default', variables('storageAccountName')), '/')[1])]"
+      ]
+    },
+    {
+      "type": "Microsoft.Insights/components",
+      "apiVersion": "2020-02-02",
+      "name": "[format('{0}-ai', variables('functionAppName'))]",
+      "location": "[parameters('location')]",
+      "kind": "web",
+      "properties": {
+        "Application_Type": "web"
+      }
+    },
+    {
+      "type": "Microsoft.Web/serverfarms",
+      "apiVersion": "2022-09-01",
+      "name": "[format('{0}-plan', variables('functionAppName'))]",
+      "location": "[parameters('location')]",
+      "sku": {
+        "name": "Y1",
+        "tier": "Dynamic"
+      }
+    },
+    {
+      "type": "Microsoft.Web/sites",
+      "apiVersion": "2022-09-01",
+      "name": "[variables('functionAppName')]",
+      "location": "[parameters('location')]",
+      "kind": "functionapp",
+      "identity": {
+        "type": "SystemAssigned"
+      },
+      "properties": {
+        "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', format('{0}-plan', variables('functionAppName')))]",
+        "httpsOnly": true,
+        "siteConfig": {
+          "minTlsVersion": "1.2",
+          "ftpsState": "Disabled",
+          "appSettings": [
+            {
+              "name": "FUNCTIONS_WORKER_RUNTIME",
+              "value": "dotnet-isolated"
+            },
+            {
+              "name": "FUNCTIONS_EXTENSION_VERSION",
+              "value": "~4"
+            },
+            {
+              "name": "WEBSITE_RUN_FROM_PACKAGE",
+              "value": "1"
+            },
+            {
+              "name": "AzureWebJobsStorage",
+              "value": "[format('DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1};EndpointSuffix={2}', variables('storageAccountName'), listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2023-01-01').keys[0].value, environment().suffixes.storage)]"
+            },
+            {
+              "name": "STORAGE_CONNECTION_STRING",
+              "value": "[format('DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1};EndpointSuffix={2}', variables('storageAccountName'), listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2023-01-01').keys[0].value, environment().suffixes.storage)]"
+            },
+            {
+              "name": "IMAGES_CONTAINER",
+              "value": "[parameters('imagesContainerName')]"
+            },
+            {
+              "name": "IMAGE_QUEUE",
+              "value": "[parameters('imageQueueName')]"
+            },
+            {
+              "name": "START_QUEUE",
+              "value": "[parameters('startQueueName')]"
+            },
+            {
+              "name": "JOB_STATUS_TABLE",
+              "value": "[parameters('jobStatusTableName')]"
+            },
+            {
+              "name": "API_USERNAME",
+              "value": "[parameters('apiUsername')]"
+            },
+            {
+              "name": "API_PASSWORD",
+              "value": "[parameters('apiPassword')]"
+            },
+            {
+              "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
+              "value": "[reference(resourceId('Microsoft.Insights/components', format('{0}-ai', variables('functionAppName'))), '2020-02-02').InstrumentationKey]"
+            },
+            {
+              "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+              "value": "[reference(resourceId('Microsoft.Insights/components', format('{0}-ai', variables('functionAppName'))), '2020-02-02').ConnectionString]"
+            }
+          ]
+        }
+      },
+      "dependsOn": [
+        "[resourceId('Microsoft.Insights/components', format('{0}-ai', variables('functionAppName')))]",
+        "[resourceId('Microsoft.Storage/storageAccounts/queueServices/queues', split(format('{0}/default/{1}', variables('storageAccountName'), parameters('imageQueueName')), '/')[0], split(format('{0}/default/{1}', variables('storageAccountName'), parameters('imageQueueName')), '/')[1], split(format('{0}/default/{1}', variables('storageAccountName'), parameters('imageQueueName')), '/')[2])]",
+        "[resourceId('Microsoft.Storage/storageAccounts/blobServices/containers', split(format('{0}/default/{1}', variables('storageAccountName'), parameters('imagesContainerName')), '/')[0], split(format('{0}/default/{1}', variables('storageAccountName'), parameters('imagesContainerName')), '/')[1], split(format('{0}/default/{1}', variables('storageAccountName'), parameters('imagesContainerName')), '/')[2])]",
+        "[resourceId('Microsoft.Storage/storageAccounts/tableServices/tables', split(format('{0}/default/{1}', variables('storageAccountName'), parameters('jobStatusTableName')), '/')[0], split(format('{0}/default/{1}', variables('storageAccountName'), parameters('jobStatusTableName')), '/')[1], split(format('{0}/default/{1}', variables('storageAccountName'), parameters('jobStatusTableName')), '/')[2])]",
+        "[resourceId('Microsoft.Web/serverfarms', format('{0}-plan', variables('functionAppName')))]",
+        "[resourceId('Microsoft.Storage/storageAccounts/queueServices/queues', split(format('{0}/default/{1}', variables('storageAccountName'), parameters('startQueueName')), '/')[0], split(format('{0}/default/{1}', variables('storageAccountName'), parameters('startQueueName')), '/')[1], split(format('{0}/default/{1}', variables('storageAccountName'), parameters('startQueueName')), '/')[2])]",
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
+      ]
+    }
+  ],
+  "outputs": {
+    "functionAppName": {
+      "type": "string",
+      "value": "[variables('functionAppName')]"
+    },
+    "functionBaseUrl": {
+      "type": "string",
+      "value": "[format('https://{0}/api', reference(resourceId('Microsoft.Web/sites', variables('functionAppName')), '2022-09-01').defaultHostName)]"
+    },
+    "storageAccount": {
+      "type": "string",
+      "value": "[variables('storageAccountName')]"
+    },
+    "imageQueueName": {
+      "type": "string",
+      "value": "[parameters('imageQueueName')]"
+    },
+    "startQueueName": {
+      "type": "string",
+      "value": "[parameters('startQueueName')]"
+    },
+    "imagesContainer": {
+      "type": "string",
+      "value": "[parameters('imagesContainerName')]"
+    },
+    "jobStatusTable": {
+      "type": "string",
+      "value": "[parameters('jobStatusTableName')]"
+    },
+    "storageConnectionString": {
+      "type": "string",
+      "value": "[format('DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1};EndpointSuffix={2}', variables('storageAccountName'), listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2023-01-01').keys[0].value, environment().suffixes.storage)]"
+    }
+  }
+}

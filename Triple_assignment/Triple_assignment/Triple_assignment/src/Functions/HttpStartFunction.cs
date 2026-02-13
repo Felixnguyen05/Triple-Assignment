@@ -10,8 +10,10 @@ using Microsoft.Azure.Functions.Worker.Http;
 
 public class HttpStartFunction
 {
-    private readonly string _tableConn = Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING")!;
-    private readonly string _tableName = "JobStatus";
+    private readonly string _tableConn =Environment.GetEnvironmentVariable("AzureWebJobsStorage")
+        ?? Environment.GetEnvironmentVariable("STORAGE_CONNECTION_STRING")
+        ?? throw new InvalidOperationException("Missing storage connection string. Set AzureWebJobsStorage or STORAGE_CONNECTION_STRING.");
+    private readonly string _tableName =Environment.GetEnvironmentVariable("JOB_STATUS_TABLE") ?? "jobstatus";
     private readonly string _authUsername = Environment.GetEnvironmentVariable("API_USERNAME") ?? "user";
     private readonly string _authPassword = Environment.GetEnvironmentVariable("API_PASSWORD") ?? "pass";
 
